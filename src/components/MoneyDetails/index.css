@@ -1,0 +1,77 @@
+.details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .details-container {
+    flex-direction: row;
+  }
+}
+
+.balance-container {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+  padding: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .balance-container {
+    margin-right: 18px;
+  }
+}
+
+.income-container {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+  padding: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .income-container {
+    margin-right: 18px;
+  }
+}
+
+.expencess-container {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+  padding: 15px;
+}
+
+.img {
+  height: 60px;
+  width: 50px;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+.text {
+  font-family: Roboto;
+  color: #7e858e;
+  font-size: 13px;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.rupees {
+  margin-top: 8px;
+  color: #475569;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+}
