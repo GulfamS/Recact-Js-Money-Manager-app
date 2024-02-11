@@ -1,7 +1,7 @@
 import './index.css'
 
 const MoneyDetails = props => {
-  const {balanceAmount, incomeAmount, expenseAmount} = props
+  const {balanceAmount, incomeAmount, expensesAmount} = props
 
   return (
     <div className="details-container">
@@ -42,7 +42,7 @@ const MoneyDetails = props => {
         <div>
           <p className="text">Your Expenses</p>
           <p className="rupees" data-testid="expensesAmount">
-            Rs{expenseAmount}
+            Rs{expensesAmount}
           </p>
         </div>
       </div>
